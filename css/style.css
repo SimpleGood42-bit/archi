@@ -49,3 +49,8 @@
 .true-red {
   color: red;
 }
+
+.list-item a {
+  text-decoration: none;
+  color: black;
+}
