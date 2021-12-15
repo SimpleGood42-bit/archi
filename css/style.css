@@ -1,0 +1,51 @@
+.header {
+  background-color: blueviolet;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-bottom: 20px;
+}
+
+.box-image {
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px gray;
+}
+.box-image img {
+  border-radius: 5px;
+}
+.box-description {
+  width: 100%;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+.list-item {
+  padding: 6px;
+  font-weight: bold;
+}
+
+.list-item span:nth-child(odd) {
+  color: brown;
+}
+.list-item:before {
+  padding-right: 5px;
+  color: blueviolet;
+  content: "\2606";
+  transition-duration: 0.5s;
+}
+.list-item:hover:before {
+  color: blueviolet;
+  padding-right: 10px;
+  content: "\2605";
+  transition-duration: 0.5s;
+}
+
+.true-green {
+  color: green;
+}
+
+.true-red {
+  color: red;
+}
